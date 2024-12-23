@@ -19,7 +19,7 @@ def generate_light_intensity():
 
 def generate_device_status():
     """Simulates the status of a device."""
-    statuses = ["ON", "OFF", "IDLE", "ERROR"]
+    statuses = ["ON", "OFF", "IDLE"]
     return random.choice(statuses)
 
 def generate_timestamp():
